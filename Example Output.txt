@@ -1,0 +1,49 @@
+[ip address] Miner Type: S19 Pro
+Log Date: 12-28-2021 01-06-28
+Current Hashrate: 106784.57Gh\s
+Fan Speeds: [5880, 5880, 6000, 5880]
+
+Chain 1: 114 ASIC
+Chain 1: 35866.07 Gh\s -- TEMP: 41-39-61-62
+ ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo
+Chain 1: L1 -- 1280 V / 500 Hz
+
+Chain 2: 114 ASIC
+Chain 2: 35690.15 Gh\s -- TEMP: 41-42-61-61
+ ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo
+Chain 2: L1 -- 1280 V / 500 Hz
+
+Chain 3: 114 ASIC
+Chain 3: 35228.35 Gh\s -- TEMP: 10-40-60-59
+ ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo ooo
+Chain 3: L1 -- 1280 V / 500 Hz 
+
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Machine model: Xilinx Zynq
+cma: Reserved 16 MiB at 0x0e000000
+Memory policy: Data cache writealloc
+On node 0 totalpages: 61440
+free_area_init_node: node 0, pgdat c0b3c040, node_mem_map cde10000
+  Normal zone: 480 pages used for memmap
+  Normal zone: 0 pages reserved
+  Normal zone: 61440 pages, LIFO batch:15
+percpu: Embedded 12 pages/cpu @cddf0000 s19916 r8192 d21044 u49152
+pcpu-alloc: s19916 r8192 d21044 u49152 alloc=12*4096
+pcpu-alloc: [0] 0 [0] 1
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 60960
+Kernel command line: mem=240M console=ttyPS0,115200 ramdisk_size=33554432 root=/dev/ram rw earlyprintk
+PID hash table entries: 1024 (order: 0, 4096 bytes)
+Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Memory: 209672K/245760K available (6317K kernel code, 243K rwdata, 1932K rodata, 1024K init, 232K bss, 19704K reserved, 16384K cma-reserved, 0K highmem)
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xcf800000 - 0xff800000   ( 768 MB)
+    lowmem  : 0xc0000000 - 0xcf000000   ( 240 MB)
+    pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+    modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+      .text : 0xc0008000 - 0xc090e410   (9242 kB)
+      .init : 0xc0a00000 - 0xc0b00000   (1024 kB)
+      .data : 0xc0b00000 - 0xc0b3cda0   ( 244 kB)
+       .bss : 0xc0b3cda0 - 0xc0b77024   ( 233 kB)
